@@ -1,0 +1,75 @@
+/*Color and fonts*/
+body {
+  background-color: #7CB68C ;
+  color: #499763 ;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 17px ;
+  font-weight: lighter;
+}
+
+h1,h2,h3 {
+	font-family: "Gowun Dodum", sans-serif;
+  }
+h1 {
+	color: #E0ACD5;
+	font-family: Helvetica;
+	font-size:36px;
+}
+
+h2 {
+	color: deeppink;
+	font-family: Helvetica;
+	font-size:24px;
+	font-weight: lighter;
+}
+a {
+  color: #E0ACD5 ;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #C52184 ;
+  text-decoration: none;
+}
+
+
+/*custom design with class*/
+.container {
+  width: 700px;
+  margin:40px auto;
+}
+
+@media (max-width: 500px){*
+ .container{
+   background-color:red;
+  }
+}
+
+
+.card-white {
+  background-color:white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px ;
+  margin:20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50% ;
+}
+
+.btn-lavender{
+  background-color: lavender;
+  color: purple;
+  padding: 15px 20px;
+  border-radius: 4px ;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
